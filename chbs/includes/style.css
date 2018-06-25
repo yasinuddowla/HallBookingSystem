@@ -1,0 +1,19 @@
+.footer {
+ 	width: 100%;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: #dddde4;
+	color: #2f3133;
+	text-align: center;
+	padding: 10px;
+	vertical-align: middle;
+	
+}
+.login-area{
+	background-color: #e8e5e5;
+	padding: 20px;
+	width: 50%;
+    margin: 100px auto;
+	border-radius: 5px;
+}

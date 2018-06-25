@@ -1,6 +1,9 @@
 <?php
 global $dblink;
-$dblink = mysqli_connect('localhost','root','yasin','yearstech_chbs');
+$db_user = ;
+$db_pass = ;
+$db_name = ;
+$dblink = mysqli_connect('localhost',$db_user,$db_pass,$db_name);
 
 	if(!$dblink){
 		echo 'Connection Error';

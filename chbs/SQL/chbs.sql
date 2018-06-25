@@ -1,6 +1,6 @@
 -- phpMyAdmin SQL Dump
 -- version 4.7.7
--- https://www.phpmyadmin.net/
+-- Mohammad Yasin Ud Dowla
 --
 -- Host: 127.0.0.1
 -- Generation Time: Apr 01, 2018 at 10:36 PM
@@ -66,24 +66,7 @@ CREATE TABLE `client` (
 --
 
 INSERT INTO `client` (`client_id`, `name`, `phone`, `address`, `email`) VALUES
-(1, 'Shafiq', '0182xxxxxxxx', 'chittagong', 'safiq@yahoo.com'),
-(2, 'Israt', '0197xxxxxx', 'Chittagong', 'israt.jahan@gmail.com'),
-(3, 'mehedi', '01855xxxx', 'agrabad,ctg', 'mehedihasan@gmail.com'),
-(4, 'aneey', '0175xxxxx', 'deowanhat', 'aneey@yahoo.com'),
-(10, 'Ashik', '017xxxx', 'Chittagong', 'test@test.com'),
-(11, 'Irfan', '018xx', 'Chittagong', 'test3'),
-(12, 'Irfan', '018xx', 'Chittagong', 'test3'),
-(13, 'Irfan', '018xx', 'Chittagong', 'test3'),
-(14, 'Irfan', '018xx', 'Chittagong', 'test3'),
 (15, 'Ashik', '017xxxx', 'Chittagong', 'test@test.com'),
-(16, 'Ashik', '017xxxx', 'Chittagong', 'test@test.com'),
-(17, 'Ashik', '017xxxx', 'Chittagong', 'test@test.com'),
-(18, 'Ashik', '018xx', 'Chittagong', 'test@test.com'),
-(19, 'Ashik', '018xx', 'Chittagong', 'test@test.com'),
-(20, 'Ashik', '018xx', 'Chittagong', 'test@test.com'),
-(21, 'Ashik', '018xx', 'Chittagong', 'test@test.com'),
-(22, 'Ashik', '018xx', 'Chittagong', 'test@test.com'),
-(24, 'Sukanta Paul', '01746539987', 'Chittagong', 'test@test.com'),
 (25, 'Test client', '01xxxxxx', 'CTG', 'test@test.com');
 
 -- --------------------------------------------------------
@@ -107,7 +90,7 @@ CREATE TABLE `hall` (
 --
 
 INSERT INTO `hall` (`hall_id`, `name`, `phone`, `address`, `rent`, `size`, `manager_id`) VALUES
-(1, 'Gec Convention Hall', '018259999', 'GEC circle', 40000, '1200', 8),
+(1, 'Gec Convention Hall', '018xxxxxx', 'GEC circle', 40000, '1200', 8),
 (2, 'agrabad convention', '', 'ctg', 120000, '1200', 1),
 (3, 'kajir deowri convention', '', 'kajir deori,ctg', 200000, '1200', 2),
 (4, 'CDA convention', '', 'Halishahar.ctg', 120000, '1200', 3),
@@ -132,11 +115,6 @@ CREATE TABLE `manager` (
 --
 
 INSERT INTO `manager` (`manager_id`, `name`, `phone`, `email`) VALUES
-(1, 'abir', '019832252xxx', 'abir@yahoo.com'),
-(2, 'abir', '01975xxxxx', 'abir.kajal@yahoo.com'),
-(3, 'mehedi', '01755xxxxx', 'mehedi@gmail.com'),
-(4, 'shawlin', '019xxxxxxx', 'israt@yahoo.com'),
-(5, 'israt', '018555xxxx', 'isratjahan@gmail.com'),
 (6, 'Absar', '123', '{email}'),
 (7, 'Absar', '123', 'test@test.com'),
 (8, 'Faruk Store', '019xxxxxxxx', 'test@test.com');

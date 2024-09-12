@@ -21,8 +21,13 @@
 				<label>Password</label>
 				<input type="password" id="password" name="password" class="form-control">
 			</div>
-			<div class="form-group mt-3">
+			<div class="form-group mt-3 text-center">
 				<input type="submit" class="btn btn-primary" value="Login">
+			</div>
+			<div>
+				<h4>Demo User</h4>
+				<p class="m-0">Username: admin</p>
+				<p>Password: 12345</p>
 			</div>
 		</form>
 

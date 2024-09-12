@@ -50,3 +50,12 @@ CREATE TABLE `booking` (
   FOREIGN KEY (client_id) REFERENCES client(id) ON DELETE CASCADE,
   FOREIGN KEY (hall_id) REFERENCES hall(id) ON DELETE CASCADE
 );
+
+INSERT INTO
+  `users` (`username`, `password`, `type`)
+VALUES
+  (
+    'admin',
+    '$2y$10$V83zRKf1NHotDGEDvsYXqebh8pJwyOuDW9fqBA.22TvJ71P6hImeu',
+    'admin'
+  );

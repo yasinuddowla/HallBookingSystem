@@ -1,20 +1,21 @@
 <?php
-require_once __DIR__ . '/../includes/templates/header.php'; ?>
+// Include Header
+require_once __DIR__ . '/../includes/templates/header.php';
 
-<!-- Load Create Form -->
-<?php require_once __DIR__ . '/db_query.php'; ?>
+// Include Database Query
+require_once __DIR__ . '/db_query.php';
 
-<!-- Load list -->
-<?php require_once __DIR__ . '/list.php'; ?>
+// Include List
+require_once __DIR__ . '/list.php';
 
-<!-- Load Create Form -->
-<?php require_once __DIR__ . '/create.php'; ?>
+// Include Create Form
+require_once __DIR__ . '/create.php';
 
-<!-- Load Edit Form -->
-<?php require_once __DIR__ . '/edit.php'; ?>
+// Include Edit Form
+require_once __DIR__ . '/edit.php';
 
-<!-- Load Delete Form -->
-<?php require_once __DIR__ . '/delete.php'; ?>
+// Include Delete Form
+require_once __DIR__ . '/delete.php';
 
-<!-- Load Footer -->
-<?php require_once __DIR__ . '/../includes/templates/footer.php'; ?>
+// Include Footer
+require_once __DIR__ . '/../includes/templates/footer.php';

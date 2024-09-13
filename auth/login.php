@@ -25,15 +25,23 @@
 				<input type="submit" class="btn btn-primary" value="Login">
 			</div>
 			<div>
-				<h4>Demo User</h4>
+				<h4>
+					Demo User
+					<button type="button" class="btn btn-primary btn-sm p-0 px-1" onclick="populateDemoCredentials()">
+						<i class="ph ph-copy-simple"></i>
+					</button>
+				</h4>
 				<p class="m-0">Username: admin</p>
 				<p>Password: 12345</p>
 			</div>
 		</form>
-
 	</div>
 
 	<script>
+		function populateDemoCredentials() {
+			document.getElementById('username').value = 'admin';
+			document.getElementById('password').value = '12345';
+		}
 		$(document).ready(function() {
 			$("#loginForm").on("submit", function(event) {
 				event.preventDefault(); // Prevent form from submitting the traditional way

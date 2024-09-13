@@ -8,7 +8,7 @@ $halls = $pdoConnection->query($query)->fetchAll(PDO::FETCH_ASSOC);
     <div class="text-end">
         <!-- Add Hall Button -->
         <button class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#addModal">
-            <i class="fa fa-plus"></i> Add Hall</button>
+            <i class="ph ph-plus"></i> Add Hall</button>
     </div>
 
     <!-- Halls Table -->

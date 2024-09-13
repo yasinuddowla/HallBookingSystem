@@ -8,7 +8,7 @@ $clients = $pdoConnection->query($query)->fetchAll(PDO::FETCH_ASSOC);
     <div class="text-end">
         <!-- Add Client Button -->
         <button class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#addModal">
-            <i class="fa fa-plus"></i> Add Client</button>
+            <i class="ph ph-plus"></i> Add Client</button>
     </div>
 
     <!-- Clients Table -->

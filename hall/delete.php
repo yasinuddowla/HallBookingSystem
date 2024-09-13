@@ -1,5 +1,5 @@
 <!-- Hidden form to submit on delete confirmation -->
-<form id="deleteForm" action="<?= $_config['base_url'] ?>client/db_query.php" method="POST" style="display:none;">
+<form id="deleteForm" action="<?= $_config['base_url'] ?>hall/db_query.php" method="POST" style="display:none;">
     <input type="hidden" name="db_action" value="delete">
     <input type="hidden" name="id" id="deleteValue" value="">
 </form>
@@ -13,7 +13,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                Are you sure you want to delete this client?
+                Are you sure you want to delete this hall?
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>

@@ -14,7 +14,7 @@
                     <a class="nav-link" href="<?= $_config['base_url'] . 'client' ?>">Clients</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Halls</a>
+                    <a class="nav-link" href="<?= $_config['base_url'] . 'hall' ?>">Halls</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown-nav" data-bs-toggle="dropdown" aria-expanded="false">Booking</a>

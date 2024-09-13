@@ -1,9 +1,9 @@
-<!-- Edit Client Modal -->
-<div class="modal fade" id="editClientModal" tabindex="-1" aria-labelledby="editClientModalLabel" aria-hidden="true">
+<!-- Edit Modal -->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="editClientModalLabel">Edit Client</h5>
+            <div class="modal-header bg-warning text-white">
+                <h5 class="modal-title" id="editModalLabel">Edit Client</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -34,8 +34,8 @@
 </div>
 
 <script>
-    // Pass client data to the Edit Client modal
-    $('#editClientModal').on('show.bs.modal', function(event) {
+    // Pass data to the Edit modal
+    $('#editModal').on('show.bs.modal', function(event) {
         var button = $(event.relatedTarget);
         var id = button.data('id');
         var name = button.data('name');

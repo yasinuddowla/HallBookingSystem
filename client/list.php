@@ -7,7 +7,7 @@ $clients = $pdoConnection->query($query)->fetchAll(PDO::FETCH_ASSOC);
     <h1>Client List</h1>
     <div class="text-end">
         <!-- Add Client Button -->
-        <button class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#addClientModal">
+        <button class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#addModal">
             <i class="fa fa-plus"></i> Add Client</button>
     </div>
 
@@ -31,12 +31,12 @@ $clients = $pdoConnection->query($query)->fetchAll(PDO::FETCH_ASSOC);
                     <td><?= htmlspecialchars($client['email']) ?></td>
                     <td>
                         <!-- Edit Button -->
-                        <button class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#editClientModal" data-id="<?= $client['id'] ?>" data-name="<?= $client['name'] ?>" data-phone="<?= $client['phone'] ?>" data-address="<?= $client['address'] ?>" data-email="<?= $client['email'] ?>">
+                        <button class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#editModal" data-id="<?= $client['id'] ?>" data-name="<?= $client['name'] ?>" data-phone="<?= $client['phone'] ?>" data-address="<?= $client['address'] ?>" data-email="<?= $client['email'] ?>">
                             Edit
                         </button>
 
                         <!-- Delete Button (opens the modal) -->
-                        <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal" data-client-id="<?= $client['id'] ?>">
+                        <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal" data-id="<?= $client['id'] ?>">
                             Delete
                         </button>
                     </td>

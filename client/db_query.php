@@ -2,13 +2,8 @@
 require_once __DIR__ . '/../config/init.php';
 require_once __DIR__ . '/../includes/templates/auth.php';
 
-// Check if data posted
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    return;
-}
-
 // Get action type (insert, update, delete)
-$databaseAction = $_POST['db_action'];
+$databaseAction = $_POST['db_action'] ?? '';
 // Add
 if ($databaseAction == 'insert') {
     $name = $_POST['name'];

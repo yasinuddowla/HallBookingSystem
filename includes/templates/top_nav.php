@@ -24,7 +24,7 @@
                 </li>
             </ul>
             <a class="btn btn-success my-2 my-sm-0" href="<?= $_config['base_url'] . 'auth/logout.php' ?>">
-                Logout [<?php echo $_COOKIE['username'] ?>]
+                Logout [<?php echo $_SESSION['username'] ?>]
             </a>
         </div>
     </div>

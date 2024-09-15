@@ -18,3 +18,4 @@ Key components include user authentication, client management, and the ability t
 -   Directory Structure
 -   Bootstrap 5
 -   jQuery 3.7
+-   Phosphor Icons

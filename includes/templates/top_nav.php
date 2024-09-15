@@ -19,8 +19,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown-nav" data-bs-toggle="dropdown" aria-expanded="false">Booking</a>
                     <ul class="dropdown-menu" aria-labelledby="dropdown-nav">
-                        <li><a class="dropdown-item" href="#">New Booking</a></li>
-                        <li><a class="dropdown-item" href="#">List</a></li>
+                        <li><a class="dropdown-item" href="<?= $_config['base_url'] . 'booking/index.php' ?>">List</a></li>
                     </ul>
                 </li>
             </ul>
